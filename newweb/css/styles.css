@@ -1,0 +1,326 @@
+/*Styles for my new IMPORTANT website*/
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background: pink;
+}
+
+.first h1 {
+    color:red;
+    font-size:4em;
+    font-weight:900;
+    text-align: center;
+    margin-top:130px;
+    text-transform: uppercase;
+}
+
+.first h2 {
+    text-align: center;
+}
+
+.feedback li, p {
+    margin:30px;
+    font-size:1.3em;
+    list-style-type: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.view {
+    float:left;
+    width:57%;
+}
+
+.view h2 {
+    margin: 20px;
+    font-style: italic;
+}
+
+.view2 h2 {
+    text-align: center;
+}
+
+.view2 {
+    float:left;
+    width:40%;
+}
+
+img.seattle {
+    float:left;
+    width:100%;
+    padding: 20px;
+}
+
+.inline {
+    margin-top:20px;
+}
+
+.bold {
+    font-weight:900;
+    float:left;
+    margin:39px;
+    list-style-type: none;
+}
+
+.bold a {
+    color: green;
+}
+
+section img {
+    padding:30px;
+    clear:both;
+    width:100%;
+}
+
+
+
+.view2 img {
+    height:300px;
+    width:100%;
+}
+
+h2.main {
+    color:red;
+    font-size:3em;
+    font-weight:900;
+    text-align: center;
+    margin-top:130px;
+    margin-bottom:15px;
+}
+
+#logo {
+    float:left;
+    width:10%;
+    margin-top: 5px;
+    height:100px;
+    border-radius:80%;
+    margin-left:100px;
+     
+}
+
+
+.example h1 {
+    position: absolute;
+    color:red;
+    font-size:4em;
+    font-weight:900;
+    text-transform: uppercase;
+/*    color: orangered;*/
+    top:20%;
+    left:19.7%;
+    margin: 0;
+    padding:0;
+   text-shadow:-3px -3px 1px #f00, 3px 3px 5px #00ff00;
+    
+}
+
+.inner-header {
+    width:100%;
+    height:110px;
+    background: rgba(255, 0, 0, 0.4); 
+    position:fixed;
+    top:0;
+}
+
+blockquote {
+    margin:20px;
+    font-size: 1.4em;
+}
+
+.contact {
+    float:left;   
+    width:60%;
+}
+
+.contact2 {
+    float:right;
+    width:36%;
+}
+
+.contact2 h2 {
+    margin:30px;
+    font-size: 1.6em;
+}
+
+.contact2 p {
+    margin:30px;
+    font-size: 1.3em;
+}
+
+.day2 {
+    background:orange;
+    padding-top: 10px;
+    margin:20px;
+    border-radius: 9px;
+}
+
+.day {
+    font-size: 1.2em;
+    text-align: center;
+    border-bottom: dotted 1px gray;
+    margin-bottom:20px;
+}
+
+.plan {
+    margin-top:21px;
+}
+
+.plan img {
+    width:100%;
+    height:500px;
+    padding:30px;
+}
+
+.plan {
+    width:75%;
+    float:left;
+}
+
+.plan2 p {
+    text-align: center;
+}
+
+.plan2 {
+    width:20%;
+    float:right;
+}
+
+.plan h1 {
+    text-align: center;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+form {
+        max-width:580px;
+       margin:0 auto; 
+    }
+
+label {
+    
+    font-weight:bold;
+    display: block;
+    margin-bottom:11px;
+}
+
+input {
+    margin-bottom:20px;
+    margin-right:5px;
+}
+
+.identification {
+    float:left;
+    width:49%;
+}
+
+.identification2 {
+    float:right;
+    width:49%;
+}
+
+  input[type=text],
+    input[type=email],
+    input[type=tel],
+    textarea
+{
+        width:100%;
+        height:30px;
+    }
+    
+fieldset {
+        color:#666;
+       padding:20px;
+    margin-bottom:13px;
+    }
+
+
+
+span {
+    color:green;
+    margin-bottom:10px;
+    font-weight: 900;
+    display:block;
+    clear:both;
+    
+}
+
+.fireworks img {
+    width:300px;
+    height:300px;
+    margin:30px;
+}
+
+.fireworks td:nth-child(1),
+.fireworks td:nth-child(2) {
+    padding-right: 20px;
+}
+
+nav ul {
+    float:right;
+    margin-top: 45px;
+    margin-right:30px;
+    
+    
+}
+
+nav li {
+    float:left;
+    margin-left:70px;
+    list-style-type:none ;
+    
+}
+
+
+
+#wrapper {
+    clear:both;
+    margin:0 auto;
+}
+
+#wrapper img {
+    width:100%;
+    height:500px;
+}
+    
+
+footer {
+    margin-top:13px;
+    height:50px;
+    line-height:50px;
+    border-top: 10px groove orangered;
+    clear:both;
+}
+
+footer li   {
+    margin-left:40px;
+    float:left;
+    margin-right:30px;
+    list-style-type: none;
+
+}
+
+
+img.html {
+    border-radius: 80%;
+    margin-top:5px;
+    width:50px;
+    height:60px;
+}
